@@ -90,10 +90,7 @@ public class TeamProjec extends Application {
 	        	}else
 	        		{
 	        		
-	        	File savingFile = fileChooser.showSaveDialog(primaryStage);
-				FileChooser.ExtensionFilter extFilter = new FileChooser.ExtensionFilter("Text doc (*.txt)", "*.txt");
-		        fileChooser.getExtensionFilters().add(extFilter);
-		        
+	        	File savingFile = textFile;	        
 		        if (savingFile != null) 
 		        {
 				
